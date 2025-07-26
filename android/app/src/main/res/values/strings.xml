@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">ChattingApplication</string>
-    <string name="title_activity_main">ChattingApplication</string>
+    <string name="app_name">ChatApplication</string>
+    <string name="title_activity_main">ChatApplication</string>
     <string name="package_name">com.chat.app</string>
     <string name="custom_url_scheme">com.chat.app</string>
 </resources>
