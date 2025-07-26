@@ -7,8 +7,8 @@ function Chat({ socket, username, room, onLeave }) {
   const [currentMessage, setCurrentMessage] = useState("");
   const [messageList, setMessageList] = useState([]);
 
-  // const SECRET_KEY = "my_secret_key_123"; // For demo only, use env vars in production
-  const SECRET_KEY = process.env.REACT_APP_SECRET_KEY;
+  const SECRET_KEY = "my_secret_key_0921"; // For demo only, use env vars in production
+  // const SECRET_KEY = process.env.REACT_APP_SECRET_KEY;
 
   const sendMessage = async () => {
     if (currentMessage !== "") {
